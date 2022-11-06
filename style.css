@@ -96,9 +96,9 @@ main section {
 
 .table-princing > h3 {
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2.3rem;
 
-  margin: 2rem 1rem;
+  margin: 2rem 1rem 0;
 }
 
 .table-princing > h3 span:first-child {
@@ -112,13 +112,10 @@ main section {
 
 .table-princing > p {
   color: var(--gray);
-  margin: 2rem 1rem;
-}
+  padding: 1rem 0;
+  margin: 0 1rem;
 
-.table-princing hr {
-  height: 1px;
-
-  margin: 2rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.112);
 }
 
 .table-princing ul {
@@ -159,8 +156,6 @@ main section {
   main section {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  
 }
 
 @media (min-width: 800px) {
